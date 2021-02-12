@@ -7,7 +7,7 @@
 
 	
 <form action="" method="post">
-	Sayı: <input type="text" name="syy">   
+	Sayı: <input type="text" name="sayi">   
 	<input type="submit" name="Kontrol ET">
 </form>
 </body>
@@ -16,18 +16,18 @@
 
 
 <?php
-$sayi=$_POST['syy'];
+$say=$_POST['sayi'];
 $asal=0; $i=2;
 do
 { 
-	if ($sayi % $i == 0)
+	if ($say % $i == 0)
 	{
 		
 		$asal = 1;
 	}
 	$i++;
 }
-while($i<$sayi);
+while($i<$say);
 if ($asal != 1)
 {
 	echo "Girilen Sayı Asaldır..!";

@@ -1,20 +1,20 @@
 <?php 
-$sure=strtotime("now");
+$sure=strtime("now");
 
 
-if ($sure>=strtotime("06") or $sure<strtotime("10")) {
+if ($sure>=strtime("06") or $sure<strtime("10")) {
 	echo "Günaydın";
 }
 
-elseif ($sure>=strtotime("10") or $sure<strtotime("17")) {
+elseif ($sure>=strtime("10") or $sure<strtime("17")) {
 	echo "İyi Günler";
 }
 
-elseif ($sure>=strtotime("17") or $sure<strtotime("20")) {
+elseif ($sure>=strtime("17") or $sure<strtime("20")) {
 	echo "İyi Akşamlar";
 }
 
-elseif ($sure>=strtotime("20") or $sure<strtotime("00")) {
+elseif ($sure>=strtime("20") or $sure<strtime("00")) {
 	echo "İyi Geceler";
 }
 

@@ -1,19 +1,19 @@
-nmbrs=[]
-sfrlr = []
-snc=[ ]
+number=[]
+sıfırla = []
+nc=[ ]
 while True:
-    sy=int(input("Lütfen bir sayı giriniz: "))
-    nmbrs.append(sy)
-    for syi in nmbrs:
-        if syi==0:
-            sfrlr.append(syi)
-            nmbrs.remove(0)
-            snc=sfrlr+nmbrs
+    say=int(input("Lütfen bir sayı giriniz: "))
+    number.append(say)
+    for sy in number:
+        if sy==0:
+            sıfırla.append(sy)
+            number.remove(0)
+            nc=sıfırla+number
     soru=input("Devam etmek istiyorsanız E yaziniz, Çıkmak istiyorsanız H yaziniz. ")
     if soru=="e" or soru=="E":
         continue
     else:
-        print(snc)
+        print(nc)
         break
 
 

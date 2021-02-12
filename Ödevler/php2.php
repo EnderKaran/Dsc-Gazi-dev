@@ -13,7 +13,7 @@
 
 <?php
 
-function MukemmelSayi($sayi) {
+function Muksayi($sayi) {
    if(!is_numeric($sayi)) {
       echo "<script>alert('Lütfen Bir Sayı Giriniz')</script>"; 
       return false;
@@ -36,8 +36,8 @@ function MukemmelSayi($sayi) {
 
 if(isset($_GET['sayi'])) 
 {
-$kontrol = $_GET['sayi'];
-MukemmelSayi($kontrol);
+$kont = $_GET['sayi'];
+Muksayi($kontrol);
 
 
 }

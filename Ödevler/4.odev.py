@@ -1,17 +1,17 @@
-sylr=[]
-tek_sylr=[]
+sayi=[]
+tek_sayi=[]
 while True:
-    sayi = int(input('Sayı : '))
-    sylr.append(sayi)
-    if(int(sayi)%2!=0):
-        tek_sylr.append(sayi)
+    say = int(input('Sayı : '))
+    sayi.append(say)
+    if(int(say)%2!=0):
+        tek_sayi.append(say)
     soru=input("Devam etmek istiyorsanız E yaziniz, Çıkmak istiyorsanız H yaziniz. ")
     if soru=="e" or soru=="E":
         continue
     else:
-        print("Girdiğiniz değerler= "+str(sylr))
-        tek_sylr.sort()
-        print("En büyük tek_sylr değer= "+str(tek_sylr[-1]))
+        print("Girdiğiniz değerler= "+str(sayi))
+        tek_sayi.sort()
+        print("En büyük tek_sylr değer= "+str(tek_sayi[-1]))
         break
 
 
